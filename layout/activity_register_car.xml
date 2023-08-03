@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_boxes"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        >
+
+        <Spinner
+            android:id="@+id/companyName"
+            android:layout_width="190dp"
+            android:layout_height="36dp"
+            android:entries="@array/carCompany" />
+
+        <Spinner
+            android:id="@+id/modelName"
+            android:layout_width="185dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/txtRegisterationNo"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:hint="Registration Number"
+        />
+
+    <Spinner
+        android:id="@+id/spnrInitialNoOfSeats"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:entries="@array/noOfInitalSeats"></Spinner>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/discardCar"
+            android:layout_width="wrap_content"
+            android:background="@drawable/buttons_rounded"
+            android:layout_height="wrap_content"
+            android:text="Discard"/>
+
+        <Button
+            android:id="@+id/saveCar"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttons_rounded"
+            android:text="Register Car" />
+
+    </LinearLayout>
+
+</LinearLayout>

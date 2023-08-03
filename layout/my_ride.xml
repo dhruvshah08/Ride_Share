@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/dialog_boxes"
+        >
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRideStatus"
+            android:textColor="#030e12"
+            android:hint="Driver/Passenger"
+            />
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtDateOfRide"
+        android:textSize="15dp"
+        android:textColor="#030e12"
+       android:hint="dd/mm/yyyy hh:mm"
+        android:layout_marginLeft="130dp"
+       />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030e12"
+        android:textSize="16dp"
+        android:text="From: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Source Address"
+            android:id="@+id/txtSourceAddress"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="16dp"
+            android:text="To: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#030e12"
+            android:textSize="14dp"
+            android:hint="Destination Address"
+            android:id="@+id/txtDestinationAddress"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:text="Gender's you shared the Ride with:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#030e12"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:hint="Driver Details: "
+            android:id="@+id/txtGendersRideSharedWith"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblNo"
+            android:textColor="#030e12"
+            android:textSize="16dp"
+            android:text="Number Of Seats: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="14dp"
+            android:hint="No of Seats"
+            android:id="@+id/txtNoOfSeats"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="16dp"
+            android:text="Car Details: "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:hint="Car Details"
+            android:textSize="14dp"
+            android:id="@+id/txtCarDetails"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#030e12"
+            android:text="Driver Details"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textColor="#030e12"
+            android:layout_height="wrap_content"
+            android:hint="Driver Details: "
+            android:id="@+id/txtDriverDetails"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

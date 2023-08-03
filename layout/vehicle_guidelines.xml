@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    >
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_marginTop="50dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/listOfMyCars"
+       >
+   </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/info_border"
+        >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Requirements"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="21dp"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="\nAll vehicles being used for rides on the app must meet the following requirements:"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="17dp"
+        android:text="\n Must have 4 doors and be able to transport a minimum of 4 passengers
+    \nVehicle model must be 15 years old or newer
+    \nTitle cannot be salvaged, reconstructed, or rebuilt
+    \nRental vehicles are not allowed
+    \nCannot have any cosmetic damage, missing pieces, commercial branding or taxi paint jobs" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="\nShould you choose to drive a vehicle you do not personally own, you must be listed as an insured driver on this vehicle's insurance policy. Please note that we cannot approve a vehicle if the driver-partner's name is not on the insurance document." />
+
+    </LinearLayout>
+</LinearLayout>

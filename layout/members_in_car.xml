@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_boxes"
+    >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtNumberOfPassengers"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:textColor="#030e12"
+        android:textSize="16dp"
+        android:text="TextView" />
+
+    <ListView
+        android:id="@+id/listOfAllPassengers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#030e12"
+        android:textSize="16dp"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEndTrip"
+        android:text="End Trip"
+        android:textColor="#030e12"
+        android:background="@drawable/buttons_rounded"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+</LinearLayout>

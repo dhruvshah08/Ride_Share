@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_boxes"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Name: " />
+
+        <TextView
+            android:id="@+id/txtCarCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Company Name" />
+
+        <ImageButton
+            android:id="@+id/btnDeleteCar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#0000"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/delete" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model Name: "
+        />
+    <TextView
+        android:id="@+id/txtCarModelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Model Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Number Seats: "
+            />
+        <TextView
+            android:id="@+id/txtNoOfSeats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Number of Seats" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registeration Number: "
+            />
+        <TextView
+            android:id="@+id/txtRegisterationNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Registeration Number" />
+
+    </LinearLayout>
+</LinearLayout>

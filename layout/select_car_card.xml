@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_boxes"
+    >
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Name: "
+            android:textColor="#030e12"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:id="@+id/carCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="14dp"
+            android:hint="Company Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model Name: "
+            android:textSize="16dp"
+            android:textColor="#030e12"
+            />
+        <TextView
+            android:id="@+id/carModelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="14dp"
+            android:hint="Model Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="16dp"
+            android:text="Total Number Seats: "
+            />
+        <TextView
+            android:id="@+id/txtNoOfSeats"
+            android:layout_width="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:hint="Number of Seats" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="16dp"
+            android:text="Registration Number: "
+            />
+        <TextView
+            android:id="@+id/txtRegisterationNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#030e12"
+            android:textSize="14dp"
+            android:hint="Registration Number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSelectCar"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttons_rounded"
+        android:textColor="#030e12"
+        android:layout_marginBottom="10dp"
+        android:text="Select Car" />
+</LinearLayout>

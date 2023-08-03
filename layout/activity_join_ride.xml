@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_boxes"
+    >
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        >-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/btnJoinRideNow"-->
+<!--            android:text="Join Now"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/btnJoinRideLater"-->
+<!--            android:text="Join Later"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/txtJoinTime"-->
+<!--        android:hint="Join Time"-->
+<!--        />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#030e12"
+
+        android:hint="With whom are comfortable to share your ride with?"
+        android:layout_margin="15dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/genderGroup"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#030e12"
+
+            android:textSize="20dp"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/chkFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="#030e12"
+            android:textSize="20dp"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/chkOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textColor="#030e12"
+            android:textSize="20dp"></CheckBox>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spnrNoOfPassengers"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#030e12"
+        android:entries="@array/noOfPassengers"></Spinner>
+
+    <Button
+        android:id="@+id/btnGetListOfCars"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#030e12"
+        android:background="@drawable/buttons_rounded"
+        android:text="Get List of Cars" />
+
+</LinearLayout>

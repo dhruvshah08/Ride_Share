@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_join_as_driver2"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minimum requirements\nThere are a few minimum requirements to meet before you can sign up to drive:
+
+\nMeet the minimum age to drive in your city
+\nHave at least one year of licensed driving experience in the US (3 years if you are under 23 years old)
+\nHave a valid US driver’s license
+\nUse an eligible 4-door vehicle"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Required documents\nFor your next step, share the following documentation:
+
+\nA valid  driver’s license
+\nProof of residency in your city, state, or province
+\nProof of vehicle insurance if you plan to drive your own car
+\nA driver profile photo
+\nMust be a forward-facing, centered photo including the driver’s full face and top of shoulders, with no sunglasses
+\nMust be a photo only of the driver with no other subject in the frame, well-lit, and in focus; it cannot be a driver’s license photo or other printed photograph"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="63dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to all the Terms and Conditions"
+        android:id="@+id/chkTermsAgreed"
+        android:checked="false"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join in as a Driver!"
+        android:id="@+id/btnJoinAsDriver"
+        android:enabled="false"
+        />
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F0"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:hint="Name"
+        android:textColor="#030e12" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <EditText
+            android:id="@+id/txtAge"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="number"
+            android:textColor="#030e12" />
+
+        <Spinner
+            android:id="@+id/spnrGender"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="47dp"
+            android:entries="@array/gender"
+            android:textColor="#030e12" />
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/txtEmergencyContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:hint="Emergency Contact Name"
+        android:textColor="#030e12" />
+
+    <EditText
+        android:id="@+id/txtEmergencyContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:hint="Emergency Contact Number"
+        android:inputType="number"
+        android:textColor="#030e12" />
+
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDiscardChanges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons_rounded"
+            android:text="Discard" />
+
+        <Button
+            android:id="@+id/btnSaveChanges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/buttons_rounded"
+            android:text="Save" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

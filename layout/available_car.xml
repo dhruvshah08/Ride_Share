@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/dialog_boxes"
+        android:layout_margin="10dp"
+        >
+        <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Company Name Model Name"
+        android:textColor="#030e12"
+        android:textSize="17dp"
+        android:id="@+id/txtCarCompanyModel"
+        />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="17dp"
+        android:id="@+id/txtUserDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030e12"
+        android:hint="Driver Information" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="17dp"
+        android:id="@+id/txtDestinationAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#030e12"
+        android:hint="Destination Address" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Distance away"
+        android:textColor="#030e12"
+        android:id="@+id/txtDistanceAway"
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="No Of Free Seats"
+        android:textColor="#030e12"
+        android:id="@+id/txtNoOfFreeSeats"
+        />
+
+    <Button
+        android:id="@+id/btnRequestPickup"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttons_rounded"
+        android:text="Request Pickup"
+        android:textColor="#030e12" />
+
+    </LinearLayout>
+</LinearLayout>
